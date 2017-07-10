@@ -6,7 +6,7 @@
   "publisher-url": "https://www.runtogether.co.uk",
   "keyword-1": "Running",
   "keyword-2": "Group",
-  "data-url": "http://api.britishcycling.com/openactive/rpde",
+  "data-url": "https://api.runtogether.co.uk/odi/public/courses",
   "created": "2017-07-10",
   "documentation-url": "https://github.com/runtogether/opendata",
   "rpde-version": "0.2.3",
@@ -17,5 +17,5 @@
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us16.list-manage.com\",\"uuid\":\"bd76093d07b381ef6ffd65ca3\",\"lid\":\"1cf06f2d1b\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
-  "publish": true
+  "publish": false
 }
