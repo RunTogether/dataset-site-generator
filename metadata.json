@@ -1,5 +1,5 @@
 {
-  "dataset-site-url": "https://runtogether.github.io/",
+  "dataset-site-url": "https://data.runtogether.co.uk/",
   "title": "Run Together Sessions",
   "description": "Session data from the runtogether.co.uk site",
   "publisher-name": "England Athletics",
@@ -13,9 +13,9 @@
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "Run Together",
-  "attribution-url": "https://runtogether.github.io/",
+  "attribution-url": "https://data.runtogether.co.uk/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us16.list-manage.com\",\"uuid\":\"bd76093d07b381ef6ffd65ca3\",\"lid\":\"1cf06f2d1b\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
-  "publish": false
+  "publish": true
 }
