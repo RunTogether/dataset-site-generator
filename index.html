@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "Run Together Sessions",
-      "id": "https://data.runtogether.co.uk/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "https://data.runtogether.co.uk/",
       "url": "https://data.runtogether.co.uk/",
-      "description" : "Session data from the runtogether.co.uk site; published using OpenActive RPDE v1.0.",
+      "name": "Run Together Sessions",
+      "description": "Session data from the runtogether.co.uk site; published using OpenActive RPDE v1.0.",
       "keywords":[
-         "Running",
-         "Group",
-         "OpenActive"
+          "Running",
+          "Group",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=1.0",
-        "contentUrl" : "https://api.runtogether.co.uk/odi/public/courses"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "https://api.runtogether.co.uk/odi/public/courses"
+        }
+      ],
+      "discussionUrl": "https://github.com/runtogether/opendata/issues",
+      "documentation": "https://github.com/runtogether/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "England Athletics",
-         "url": "https://www.runtogether.co.uk",
-         "logo": "https://data.runtogether.co.uk/images/logo.png"
+        "@type": "Organization",
+        "name": "England Athletics",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://data.runtogether.co.uk/images/logo.png"
+        },
+        "url": "https://www.runtogether.co.uk"
       },
-      "datePublished" : "2017-07-10T00:00:00.000Z"
+      "datePublished": "2017-07-10T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "https://data.runtogether.co.uk/images/bg.jpg"
+      }
     }
     </script>
   </head>
